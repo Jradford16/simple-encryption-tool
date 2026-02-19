@@ -9,3 +9,7 @@ This program requires a C compiler, such as GCC, and is intended to be run in a 
 Warnings and Limitations
 
 This tool is for educational use only and should not be used to secure sensitive or personal information. The encryption method used is basic XOR, which is not secure against anyone with even moderate technical knowledge. If the key is known or guessed, the encrypted data can easily be reversed.
+
+Ethical Considerations and Responsible Use
+
+Even though this program only uses a basic XOR operation, encryption tools in general can be misused. Someone could modify a program like this to hide harmful content or give people a false sense of security by claiming their data is “encrypted” when it really isn’t secure. Another ethical concern is that simple encryption programs like this can create misunderstandings about how real security works. If one relied on this tool to protect sensitive information, they could put themselves or others at risk without realizing it.
