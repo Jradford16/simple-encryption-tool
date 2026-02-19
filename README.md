@@ -4,7 +4,7 @@ This program is a simple command-line encryption tool written in C. It uses a ba
 
 How To Run It and Dependencies
 
-This program requires a C compiler, such as GCC, and is intended to be run in a terminal environment. To compile it, run: gcc simple.c -o simple. After compiling, you can run the program directly from the terminal. To encrypt a string, use: ./program encrypt <password> <key>. To decrypt, use: ./simple decrypt <ciphertext> <key>. To verify, use: ./simple verify <ciphertext> <password> 13. The same key must be used during encryption and decryption or the output will not match.
+This program requires a C compiler, such as GCC, and is intended to be run in a terminal environment. To compile it, run: gcc simple.c -o <output name>. After compiling, you can run the program directly from the terminal. To encrypt a string, use: ./<output name> encrypt <password> <key>. To decrypt, use: ./<output name> decrypt <ciphertext> <key>. To verify, use: ./<output name> verify <ciphertext> <password> 13. The same key must be used during encryption and decryption or the output will not match.
 
 Warnings and Limitations
 
